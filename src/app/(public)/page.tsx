@@ -116,7 +116,7 @@ export default async function HomePage() {
                   'Kami adalah pengrajin profesional yang berpengalaman dalam pembuatan piala, plakat, medali, dan trofi berkualitas. Setiap produk dikerjakan dengan teliti untuk menghadirkan kebanggaan di setiap pencapaian.'}
               </p>
               <div className="mt-7 flex flex-wrap gap-3">
-                <Link href="/tentang" className="btn-outline !border-white/40 !text-white hover:!bg-white/10">
+                <Link href="/tentang" className="inline-flex items-center justify-center px-6 py-3 rounded-lg border-2 border-white text-white font-semibold hover:bg-white hover:text-navy-800 transition-all duration-200">
                   Pelajari Lebih Lanjut
                 </Link>
                 {normalizeWaNumber(pengaturan?.nomor_wa || '') && (

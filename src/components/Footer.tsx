@@ -78,14 +78,6 @@ export default async function Footer() {
 
         <div className="mt-12 pt-8 border-t border-navy-600 flex flex-col md:flex-row md:items-center md:justify-between gap-3 text-xs text-navy-300">
           <p>© {tahun} {namaToko}. Semua hak dilindungi.</p>
-          <p className="flex items-center gap-2">
-            <span>Dibangun dengan </span>
-            <span className="text-gold-400">Next.js</span>
-            <span>·</span>
-            <span className="text-gold-400">Supabase</span>
-            <span>·</span>
-            <span className="text-gold-400">Vercel</span>
-          </p>
         </div>
       </div>
     </footer>
